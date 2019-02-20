@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Push Image to registry ') {
       steps {
-        sleep 3
+        sleep 4
       }
     }
   }
