@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Hello World'
-        sleep 2
+        sleep 5
         sh 'java -version'
       }
     }
@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Push Image to registry ') {
       steps {
-        sleep 5
+        sleep 20
       }
     }
   }
