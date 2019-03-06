@@ -2,9 +2,6 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      agent {
-        label 'maven3-jdk-8'
-      }
       steps {
         echo 'Hello World'
         sleep 5
